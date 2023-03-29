@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import AuthStack from './routes/AuthStack'
 import BottomTab from './routes/BottomTab'
 import 'react-native-gesture-handler'
+import Order from './screens/Orders/Order'
 
 export default function App() {
   return (

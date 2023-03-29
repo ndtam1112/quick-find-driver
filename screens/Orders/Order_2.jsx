@@ -158,12 +158,12 @@ const styles = StyleSheet.create({
   },
 })
 
-const ConfirmOrder = ({ navigation }) => {
+const Order_2 = ({ navigation }) => {
   const [loading, setLoading] = useState(true)
 
   const [modalVisible, setModalVisible] = useState(false)
-  const pressOrder2 = () => {
-    navigation.navigate('Order2')
+  const pressOrder3 = () => {
+    navigation.navigate('Order3')
   }
   const pressHanderBack = () => {
     navigation.goBack()
@@ -196,7 +196,7 @@ const ConfirmOrder = ({ navigation }) => {
               lineHeight: 24,
             }}
           >
-            Xác nhận chuyến xe
+            Đang đón khách
           </Text>
           <Button
             style={styles.btn_load}
@@ -289,14 +289,14 @@ const ConfirmOrder = ({ navigation }) => {
                   justifyContent: 'center',
                   alignItems: 'center',
                 }}
-                onPress={pressOrder2}
+                onPress={pressOrder3}
               >
                 <Ionicons
                   name="checkmark-done-circle-outline"
                   size={40}
                   color="green"
                 />
-                <Text style={{ fontSize: 14 }}>Xác nhận chuyến</Text>
+                <Text style={{ fontSize: 14 }}>Đã đón khách</Text>
               </TouchableOpacity>
             </Flex>
             <TouchableOpacity onPress={() => setModalVisible(!modalVisible)}>
@@ -379,4 +379,4 @@ const ConfirmOrder = ({ navigation }) => {
   )
 }
 
-export default ConfirmOrder
+export default Order_2
