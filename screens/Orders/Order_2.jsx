@@ -233,10 +233,10 @@ const Order_2 = ({ navigation }) => {
                     <FontAwesome5 name="map-pin" size={24} color="black" />
                     <Flex style={{ marginLeft: 16 }}>
                       <Text style={{ fontWeight: 'bold', lineHeight: 24 }}>
-                        Điểm đón
+                        Trường Đại học Thủy Lợi
                       </Text>
                       <Text style={{ fontSize: 14, color: 'rgba(0,0,0,0.6)' }}>
-                        Địa chỉ chính xác
+                        175 P. Tây Sơn, Trung Liệt, Đống Đa, Hà Nội
                       </Text>
                     </Flex>
                   </Flex>
@@ -262,10 +262,10 @@ const Order_2 = ({ navigation }) => {
                     <Entypo name="location" size={24} color="black" />
                     <Flex style={{ marginLeft: 16 }}>
                       <Text style={{ fontWeight: 'bold', lineHeight: 24 }}>
-                        Điểm đến
+                        Bệnh viện Đại học Y Hà Nội
                       </Text>
                       <Text style={{ fontSize: 14, color: 'rgba(0,0,0,0.6)' }}>
-                        Địa chỉ chính xác
+                        1 P. Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội
                       </Text>
                     </Flex>
                   </Flex>
